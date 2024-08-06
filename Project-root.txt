@@ -1,0 +1,14 @@
+/my-website
+  /css
+    styles.css
+  /js
+    script.js
+  /images
+  /backend
+    server.js
+  index.html
+  workshops.html
+  platforms.html
+  qusim.html
+  login.html
+  package.json
