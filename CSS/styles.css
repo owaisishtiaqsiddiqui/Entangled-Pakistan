@@ -1,0 +1,92 @@
+/* Basic body styling */
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f4;
+    color: #333;
+}
+
+/* Header styling */
+header {
+    background-color: #333;
+    padding: 1rem 0;
+}
+
+/* Navigation styling */
+.nav-list {
+    list-style: none;
+    display: flex;
+    justify-content: center;
+}
+
+.nav-list li {
+    margin: 0 1rem;
+}
+
+.nav-list a {
+    text-decoration: none;
+    color: #fff;
+    font-weight: bold;
+    padding: 0.5rem 1rem;
+    border-radius: 5px;
+    transition: background-color 0.3s;
+}
+
+.nav-list a:hover {
+    background-color: #555;
+}
+
+/* Main content styling */
+main {
+    padding: 2rem;
+    text-align: center;
+}
+
+/* Platforms section styling */
+.platforms {
+    padding: 2rem 0;
+}
+
+.platform-icons {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 1rem; /* Reduce the gap between items */
+}
+
+.platform-item {
+    text-align: center;
+    flex: 1 1 calc(20% - 1rem); /* Adjust the width to fit 5 items per row */
+    max-width: calc(20% - 1rem);
+}
+
+.platform-icons a {
+    display: inline-block;
+    transition: transform 0.3s;
+}
+
+.platform-icons a:hover {
+    transform: scale(1.1);
+}
+
+.icon {
+    width: 150px; /* Increase the width of the icons */
+    height: 150px; /* Increase the height of the icons */
+    object-fit: contain;
+}
+
+.platform-item p {
+    margin-top: 0.5rem;
+    font-size: 1rem;
+    color: #333;
+}
+
+/* Footer styling */
+footer {
+    background-color: #333;
+    color: #fff;
+    text-align: center;
+    padding: 1rem 0;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+}
